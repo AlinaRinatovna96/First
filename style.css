@@ -1,3 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +64,7 @@ header .menu .icon {
 footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 footer .globe-languages {
@@ -138,4 +154,94 @@ main .banner-text p {
 main .banner-img {
     width: 33%;
     margin-right: 163px;
+}
+
+main .cases-pics {
+    display: flex;
+    justify-content:space-between;
+}
+
+main .banner-case {
+    background: #FFFFFF;
+    width: 350px;
+    height: 407.65;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 20px #00000010;
+}
+
+main .cases-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main .cases-pics {
+    font-size: 17px;
+}
+
+main .banner-case-text {
+    padding-top: 20px;
+}
+
+main .earphones-text {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+main .earphones-blocks .items {
+    background: #FFFFFF;
+    width: 350px;
+    max-width: 350px;
+    height: 407.65;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+}
+
+main .earphones .images {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .earphones .likes {
+    width: 20px;
+}
+
+main .earphones .info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 54px;
+}
+
+main .earphones .info .price {
+    color: #FFA542;
+}
+
+main .earphones .reviews {
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+    align-items: center;
+}
+
+main .earphones .reviews .rating {
+    padding-left: 10px;
+}
+
+main .earphones-blocks {
+    display: flex;
+    justify-content: space-between;
 }
